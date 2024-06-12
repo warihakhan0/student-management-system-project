@@ -1,10 +1,9 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-const getId = Math.floor(Math.random() * 90000);
 let myBalance = 50000;
-let randomId = Math.floor(Math.random() * 90000);
-let studentId = "stu" + randomId;
+const randomId = Math.floor(Math.random() * 90000);
+const studentId = "stu" + randomId;
 
 let student = await inquirer.prompt([
   {
